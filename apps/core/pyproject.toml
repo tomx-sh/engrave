@@ -1,0 +1,16 @@
+[project]
+name = "engrave-core"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "depth-pro-2",
+    "fastapi",
+    "numpy",
+    "pillow",
+    "torch",
+    "trimesh",
+    "uvicorn",
+]
+
+[tool.uv.sources]
+depth-pro-2 = { git = "https://github.com/apple-aiml-research/ml-depth-pro-2", rev = "aa389cbb0b74341664ed663a0966c859905cd6c0" }

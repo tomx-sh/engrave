@@ -1,0 +1,8 @@
+{
+  "name": "core",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "uv run uvicorn engrave:app --host 127.0.0.1 --port 8000"
+  }
+}

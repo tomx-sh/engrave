@@ -1,0 +1,9 @@
+{
+  "name": "engrave",
+  "private": true,
+  "packageManager": "bun@1.4.5",
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev": "bun run --parallel --workspaces dev"
+  }
+}
